@@ -2,9 +2,13 @@
 ## 유동성풀 비율 검사
 ### 설명
 파일명: Dex.sol
+
 함수명: addLiquidity
+
 줄번호: 67
+
 require(balanceX / amountX == balanceY / amountY);
+
 여기서 유동성 풀의 비율이 일치하는지 확인하는데, 소수점 뒷자리가 버려지게 되어 정확한 연산을 하지 못할 수 있다.
 ### 파급력
 Medium
